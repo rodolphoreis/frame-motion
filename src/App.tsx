@@ -4,7 +4,17 @@ import { useState } from "react";
 import { Reorder } from "framer-motion";
 import { Item } from "./Item";
 
-const initialItems = ["🍅 Tomato", "🥒 Cucumber", "🧀 Cheese", "🥬 Lettuce"];
+const initialItems = [
+  "🍅 Tomate",
+  "🥒 Curgete",
+  "🧀 Queijo",
+  "🥬 Couve",
+  "🌶️ Pimenta",
+  "🌽 Milho",
+  "🥩 Carne",
+  "🧅 Cebola",
+  "🥖 Pão",
+];
 
 export default function App() {
   const [items, setItems] = useState(initialItems);
